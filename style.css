@@ -11,6 +11,10 @@ body {
     background-color: black ;
     padding: 20px ;
     text-align: center;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+
 
 }
 
@@ -26,9 +30,11 @@ body {
 .fondo {
     background-color: rgba(0, 0, 0, 0.74);
     padding: 20px;
-    margin: 30px;
+    width: 100%;
+    margin: 15px;
+    box-sizing: border-box;
     color: white;
-    font-size: 25px;
+    font-size: 1.2em;
 }
 
 .imagencentro {
@@ -64,11 +70,15 @@ section img:hover{
     background-color: black ;
     padding: 40px ;
     text-align: center;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .bajo a {
     color: white;
     text-decoration: none;
+    
     
     
 }
